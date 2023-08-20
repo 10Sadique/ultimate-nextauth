@@ -50,8 +50,9 @@ export const LoginForm = () => {
 
         if (callback?.ok && !callback?.error) {
           toast.success("Logged in.");
-          router.push("/");
         }
+        router.push("/");
+        router.refresh();
       });
     } catch (error) {
       toast.error("Something went wrong.");
