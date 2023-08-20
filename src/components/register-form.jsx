@@ -110,7 +110,11 @@ export const RegisterForm = () => {
       </Form>
       <Separator className="my-4" />
       <div className="flex items-center space-x-4">
-        <Button className="w-full font-bold" variant="secondary">
+        <Button
+          onClick={() => signIn("google")}
+          className="w-full font-bold"
+          variant="secondary"
+        >
           Google
         </Button>
         <Button
