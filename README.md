@@ -1,4 +1,4 @@
-This is a **NextAuth Starter** project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and [NextAuth](https://next-auth.js.org/) in JavaScript.
+This is a **NextAuth Starter** project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and [`NextAuth`](https://next-auth.js.org/) in JavaScript.
 
 ## Getting Started
 
