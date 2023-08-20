@@ -9,7 +9,7 @@ import { buttonVariants } from "@/components/ui/button";
 export default async function Home() {
   const session = await getServerSession(authOptions);
   return (
-    <section className="p-4">
+    <section className="container p-4">
       <h1>Home</h1>
       <h1>Server Side Rendered</h1>
       <pre>{JSON.stringify(session, null, 2)}</pre>
